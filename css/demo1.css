@@ -1,0 +1,203 @@
+@import url(reset.css);
+.container,
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.zhezhao {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 99999;
+}
+.zhezhao .touxiang {
+  width: 4.46rem;
+  height: 2.59rem;
+  background: #ffffff;
+  position: absolute;
+  border-radius: 0.15rem;
+  top: 50%;
+  margin-top: -2.23rem;
+  left: 50%;
+  margin-left: -2rem;
+}
+.zhezhao .touxiang .top {
+  width: 4.45rem;
+  height: 0.97rem;
+  background: none;
+  line-height: 0.8rem;
+}
+.zhezhao .touxiang .top h3 {
+  padding-left: 0.34rem;
+}
+.zhezhao .touxiang .top3 h3 {
+  padding-left: 0.34rem;
+}
+.zhezhao .touxiang .top2 h3 {
+  padding-left: 0.34rem;
+  padding-top: 0.4rem;
+}
+.container header {
+  width: 100%;
+  height: 0.87rem;
+  background: #f94455;
+  background: #f94455 url(../img/jiantou.png) no-repeat 0.4rem center;
+  background-size: 0.35rem auto;
+  text-align: center;
+}
+.container header h3 {
+  text-align: center;
+  line-height: 0.87rem;
+  color: #efd6dc;
+}
+.container section .main {
+  width: 100%;
+  height: 1.16rem;
+  background: #ffffff;
+  border-bottom: 1px solid #E5E5E5;
+}
+.container section .main p {
+  -webkit-box-flex: 1;
+  line-height: 1.16rem;
+  margin-left: 0.4rem;
+  color: #353535;
+  background: url(../img/adsfasdfasdfsdafadsf.png) no-repeat right center;
+  background-size: 0.95rem auto;
+  margin-right: 0.4rem;
+  margin-top: 0.1rem;
+}
+.container section .main p a {
+  color: #5d5d5d;
+}
+.container section .main3 {
+  width: 100%;
+  height: 0.85rem;
+  background: #ffffff;
+  border-bottom: 1px solid #E5E5E5;
+}
+.container section .main3 p {
+  -webkit-box-flex: 1;
+  line-height: 0.85rem;
+  margin-left: 0.4rem;
+  color: #353535;
+  background-size: 0.14rem auto;
+  margin-right: 0.4rem;
+}
+.container section .main9 {
+  width: 100%;
+  height: 0.85rem;
+  background: #ffffff;
+  border-bottom: 1px solid #E5E5E5;
+}
+.container section .main9 p {
+  -webkit-box-flex: 1;
+  line-height: 0.85rem;
+  margin-left: 0.4rem;
+  color: #353535;
+  background: url(../img/bg987654.png) no-repeat right center;
+  background-size: 0.14rem auto;
+  margin-right: 0.4rem;
+}
+.container section .main9 p a {
+  color: #5d5d5d;
+}
+.container section .main3 {
+  width: 100%;
+  height: 0.85rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .main3 p {
+  -webkit-box-flex: 1;
+  line-height: 0.85rem;
+  margin-left: 0.4rem;
+  color: #353535;
+  margin-right: 0.4rem;
+}
+.container section .main3 h3 {
+  line-height: 0.85rem;
+  margin-right: 0.4rem;
+  color: #646464;
+}
+.container section .tixing {
+  width: 100%;
+  height: 0.8rem;
+  background: none;
+  padding-left: 0.4rem;
+  margin-top: 0.8rem;
+}
+.container section .tixing .dingbu {
+  color: #dingbu;
+}
+.container section .tixing .dingbu .zhongjian {
+  color: #333333;
+}
+.container section .zhanghao {
+  width: 100%;
+  height: 2.47rem;
+  background: none;
+  margin-top: 1.37rem;
+}
+.container section .zhanghao .shang {
+  width: 6.7rem;
+  height: 0.81rem;
+  background: none;
+  margin-left: 0.4rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 0.81rem;
+  border-bottom: 1px solid #ececec;
+}
+.container section .zhanghao .shang .chuanchuan {
+  margin-right: 0.3rem;
+  color: #939393;
+}
+.container section .zhanghao .shang .wei {
+  color: #313131;
+}
+.container section .zhanghao .zhong {
+  width: 6.7rem;
+  height: 0.81rem;
+  background: none;
+  margin-left: 0.4rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 0.81rem;
+  border-bottom: 1px solid #f1c175;
+}
+.container section .zhanghao .zhong .chuanchuan {
+  margin-right: 0.3rem;
+  color: #323232;
+  font-size: 0.29rem;
+}
+.container section .zhanghao .zhong .wei1 {
+  color: #939393;
+  font-size: 0.08rem;
+}
+.container section .zhanghao .xia {
+  width: 6.7rem;
+  height: 0.81rem;
+  background: none;
+  margin-left: 0.4rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 0.81rem;
+  border-bottom: 1px solid #ececec;
+}
+.container section .zhanghao .xia .chuanchuan {
+  margin-right: 0.3rem;
+  color: #323232;
+  font-size: 0.29rem;
+}
+.container section .zhanghao .xia .wei1 {
+  color: #939393;
+  font-size: 0.08rem;
+}

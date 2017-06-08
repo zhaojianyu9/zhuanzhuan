@@ -1,0 +1,151 @@
+@import url(reset.css);
+.full(@w, @h, @bg) {
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+.box(@dir:horizontal) {
+    display: -webkit-box;
+    -webkit-box-orient: @dir;
+}
+.container,
+body,
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container{
+    
+        
+         header{
+           
+      
+.top1{
+    .full(100%,0.87rem,#f94455);
+      .box;
+      background: #f94455 url(../img/jiantou.png) no-repeat 0.4rem center;
+      background-size: 0.35rem auto;
+
+    h3{
+//      text-align: center;
+        line-height: 0.87rem;
+        color: #efd6dc;
+        padding-left: 0.95rem;
+        
+       }
+       p{
+             line-height: 0.87rem;
+        color: #efd6dc;
+        padding-left: 0.18rem;
+        -webkit-box-flex: 1;
+       }
+       span{
+                 line-height: 0.87rem;
+        color: #efd6dc;
+        padding-right: 0.4rem;
+       }
+       
+    } 
+    .top2{
+        .full(100%,2.43rem,#f94455);
+        .top2_1{
+            .full(100%,1.12rem,none);
+            .box;
+            line-height: 1.12rem;
+            padding-left: 1.17rem;
+            color: #fffefe;
+            h3{
+                font-size: 0.27rem;
+            }
+            p{
+              padding-left: 0.2rem;  
+              font-size: 0.24rem;
+            }
+        }
+        .top2_2{
+            .full(100%,1.34rem,none);
+            .box;
+             padding-left: 1.17rem;
+            h3{
+                font-size: 0.57rem;
+                color: #fffefe;
+            }
+            p{
+                padding-top: 0.26rem;
+//              padding-right: 0.37rem;
+                padding-left: 0.3rem;
+                color:#fffefe ;
+            }
+            
+        }
+    }
+    
+    .top3{
+        .full(100%,1.31rem,#f93e51);
+        .box;
+      
+        .top3_1{
+            .full(4.81rem,1.28rem,none);
+            text-align: center;
+            h3{
+                padding-top: 0.26rem;
+                 color:#fffefe ;
+            }
+            p{
+                color:#fffefe ;
+                font-size: 0.31rem;
+            }
+        }
+        .top3_2{
+            .full(1.19rem,1.28rem,none);
+            text-align: center;
+            border-top: 1px solid #ffffff;
+            h3{
+                padding-top: 0.26rem;
+                 color:#fffefe ;
+            }
+            p{
+                color:#fffefe ;
+                font-size: 0.31rem;
+            }
+            img{
+                position: relative;
+                bottom: .18rem;
+                width: 0.31rem;
+                height: auto;
+            }
+            
+        }
+
+    }
+     
+  }
+section{
+    .main{
+        .full(100%,1.28rem,none);
+         .box;
+         border-bottom: 1px solid #e5e5e5;
+        p{
+           
+        img{
+            width: 1.16rem;
+            height: auto;
+            padding-left: 0.4rem;
+            padding-top: 0.07rem;
+        }
+        }
+        h3{
+            padding-top: 0.3rem;
+//          padding-left: 0.3rem;
+            -webkit-box-flex: 1;
+        }
+        img{
+            width: 1rem;
+            padding-top: 0.46rem;
+            padding-right: 0.4rem;
+        }
+    }
+}
+}

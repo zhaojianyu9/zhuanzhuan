@@ -1,0 +1,137 @@
+@import url(reset.css);
+.container,
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container header .top1 {
+  width: 100%;
+  height: 0.87rem;
+  background: #f94455;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  background: #f94455 url(../img/jiantou.png) no-repeat 0.4rem center;
+  background-size: 0.35rem auto;
+}
+.container header .top1 h3 {
+  line-height: 0.87rem;
+  color: #efd6dc;
+  padding-left: 0.95rem;
+}
+.container header .top1 p {
+  line-height: 0.87rem;
+  color: #efd6dc;
+  padding-left: 0.18rem;
+  -webkit-box-flex: 1;
+}
+.container header .top1 span {
+  line-height: 0.87rem;
+  color: #efd6dc;
+  padding-right: 0.4rem;
+}
+.container header .top2 {
+  width: 100%;
+  height: 2.43rem;
+  background: #f94455;
+}
+.container header .top2 .top2_1 {
+  width: 100%;
+  height: 1.12rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 1.12rem;
+  padding-left: 1.17rem;
+  color: #fffefe;
+}
+.container header .top2 .top2_1 h3 {
+  font-size: 0.27rem;
+}
+.container header .top2 .top2_1 p {
+  padding-left: 0.2rem;
+  font-size: 0.24rem;
+}
+.container header .top2 .top2_2 {
+  width: 100%;
+  height: 1.34rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding-left: 1.17rem;
+}
+.container header .top2 .top2_2 h3 {
+  font-size: 0.57rem;
+  color: #fffefe;
+}
+.container header .top2 .top2_2 p {
+  padding-top: 0.26rem;
+  padding-left: 0.3rem;
+  color: #fffefe ;
+}
+.container header .top3 {
+  width: 100%;
+  height: 1.31rem;
+  background: #f93e51;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container header .top3 .top3_1 {
+  width: 4.81rem;
+  height: 1.28rem;
+  background: none;
+  text-align: center;
+}
+.container header .top3 .top3_1 h3 {
+  padding-top: 0.26rem;
+  color: #fffefe ;
+}
+.container header .top3 .top3_1 p {
+  color: #fffefe ;
+  font-size: 0.31rem;
+}
+.container header .top3 .top3_2 {
+  width: 1.19rem;
+  height: 1.28rem;
+  background: none;
+  text-align: center;
+  border-top: 1px solid #ffffff;
+}
+.container header .top3 .top3_2 h3 {
+  padding-top: 0.26rem;
+  color: #fffefe ;
+}
+.container header .top3 .top3_2 p {
+  color: #fffefe ;
+  font-size: 0.31rem;
+}
+.container header .top3 .top3_2 img {
+  position: relative;
+  bottom: .18rem;
+  width: 0.31rem;
+  height: auto;
+}
+.container section .main {
+  width: 100%;
+  height: 1.28rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid #e5e5e5;
+}
+.container section .main p img {
+  width: 1.16rem;
+  height: auto;
+  padding-left: 0.4rem;
+  padding-top: 0.07rem;
+}
+.container section .main h3 {
+  padding-top: 0.3rem;
+  -webkit-box-flex: 1;
+}
+.container section .main img {
+  width: 1rem;
+  padding-top: 0.46rem;
+  padding-right: 0.4rem;
+}
